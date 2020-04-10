@@ -1,3 +1,9 @@
+import sys
+print(sys.path)
+
 from app.app1 import incr
+
+
 def test_incr():
-    assert 1 == incr(0)
+    print(sys.path)
+    assert 0 == incr(0)
